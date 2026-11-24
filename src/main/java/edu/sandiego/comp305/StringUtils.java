@@ -5,8 +5,8 @@ public class StringUtils {
     private StringUtils() {
     }
 
-    public static String reverseString(String text){
-        String newText = new StringBuilder(text).reverse().toString();
+    public static String reverseString(final String text){
+        final String newText = new StringBuilder(text).reverse().toString();
         return newText;
     }
 }
