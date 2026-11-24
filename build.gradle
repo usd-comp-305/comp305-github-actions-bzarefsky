@@ -30,6 +30,10 @@ spotbugs {
 }
 
 test {
+    failOnNoDiscoveredTests = false
+}
+
+test {
     useJUnitPlatform()
 }
 
